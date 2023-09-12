@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+  </head>
+  <body>
+        <nav id="navbar">
+          <img src="logo.png " alt="" srcset="">
+          <div class="left"><h2>Weather App</h2></div>
+          <div class="right">
+            <ul>
+              <li><a href="/">Home</a></li> 
+              <li><a href="/">About</a></li>
+              <li><a href="/">Quik Places</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="leftsection">
+      <form>
+        <div class="mb-3">
+          <h1>Search for Weather:</h1>
+          <input type="text" placeholder="Enter a City Name" class="form-control" id="city" aria-describedby="emailHelp" />
+        </div>
+        <button type="submit" id="submit" class="btn">Submit</button>
+      </form>
+
+
+    <div class=" my-4">
+      <h2>You Searched For  &nbsp    <span id="cityName" class="city2"></span></h2>
+    </div>
+    <div class="">
+    <h1>The Temperature is &nbsp   <span id="temp" class="blue"></span>&deg;C</h1>
+    <div class="line bgred"></div>
+    <h1>Feels Like &nbsp  <span id="feels_like" class="blue"></span>&deg;C</h1>
+    <div class="line bgred"></div>
+    <h2>The Maximum Temperature is &nbsp  <span id="max_temp" class="blue"></span>&deg;C</h2>
+    <div class="line bgred"></div>
+    <h2>The Minimum Temperature is &nbsp  <span id="min_temp" class="blue"></span>&deg;C</h2>
+    <div class="line bgred"></div>
+    <h2>Sun Rise &nbsp  <span id="sunrise" class="yellow"></span></h2>
+    <div class="line bgblue"></div>
+    <h2> Sun Set &nbsp <span id="sunset" class="yellow"></span></h2>
+    <div class="line bgblue"></div>
+    <h2>The Wind-Degree is &nbsp  <span id="wind_degrees" class="red"></span></h2>
+    <div class="line bgyellow"></div>
+    <h2>The Wind-Speed is &nbsp  <span id="wind_speed" class="red"></span></h2>
+    <div class="line bgyellow"></div>
+    <h2>The Cloud-PCT is &nbsp <span id="cloud_pct" class="red"></span></h2>
+    <div class="line bgyellow"></div>
+    <h2>The Humidity is &nbsp<span id="humidity" class="red"></span></h2>
+    <div class="line bgyellow"></div>
+    </div>
+  </div>
+
+    <div class="rightimg">
+      <img src="anime.png" alt="" srcset="">
+    </div>
+  </div>
+</div>
+
+
+<footer>
+    www.weatherapp.com @ copyright &copy; | All Right Reserved
+</footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
